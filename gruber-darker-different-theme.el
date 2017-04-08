@@ -68,11 +68,11 @@
       (gruber-darker-wisteria  "#9e95c7")
       )
   (custom-theme-set-variables
-   'gruber-darker
+   'gruber-darker-different
    '(frame-brackground-mode (quote dark)))
 
   (custom-theme-set-faces
-   'gruber-darker
+   'gruber-darker-different
 
    ;; AUCTeX
    `(font-latex-bold-face ((t (:foreground ,gruber-darker-quartz :bold t))))
