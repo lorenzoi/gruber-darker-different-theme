@@ -3,7 +3,7 @@
 [Gruber Darker](http://jblevins.org/projects/emacs-color-themes/color-theme-gruber-darker.el.html)
 color theme for Emacs by Jason Blevins. A darker variant of the
 [Gruber Dark](http://daringfireball.net/projects/bbcolors/schemes/)
-theme for BBEdit by John Gruber.[Adapted for deftheme and extended by
+theme for BBEdit by John Gruber. [Adapted for deftheme and extended by
 Alexey Kutepov a.k.a. rexim](https://github.com/rexim/gruber-darker-theme). Extended by Lorenzo Iannuzzi (lorenzoi).
 
 # Manual Installation #
