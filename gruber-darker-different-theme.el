@@ -1,11 +1,16 @@
-;;; gruber-darker-theme.el --- Gruber Darker color theme for Emacs 24.
+;;; gruber-darker-different-theme.el --- Gruber Darker but Different color theme for Emacs 24 and up.
 
+;; Copyright (C) 2017 Lorenzo Iannuzzi 
 ;; Copyright (C) 2013-2016 Alexey Kutepov a.k.a rexim
 ;; Copyright (C) 2009-2010 Jason R. Blevins
 
-;; Author: Alexey Kutepov <reximkut@gmail.com>
+;; Original Author: Alexey Kutepov <reximkut@gmail.com>
 ;; URL: http://github.com/rexim/gruber-darker-theme
 ;; Version: 0.6
+
+;; Author: Lorenzo Iannuzzi <lorenzoiannuzzi@gmail.com>
+;; URL: https://github.com/lorenzoi/gruber-darker-different-theme
+;; Version: 0.1
 
 ;; Permission is hereby granted, free of charge, to any person
 ;; obtaining a copy of this software and associated documentation
@@ -31,11 +36,12 @@
 ;;
 ;; Gruber Darker color theme for Emacs by Jason Blevins. A darker
 ;; variant of the Gruber Dark theme for BBEdit by John Gruber. Adapted
-;; for deftheme and extended by Alexey Kutepov a.k.a. rexim.
+;; for deftheme and extended by Alexey Kutepov a.k.a. rexim. And
+;; extended by Lorenzo Iannuzzi (lorenzoi)
 
 
-(deftheme gruber-darker
-  "Gruber Darker color theme for Emacs 24")
+(deftheme gruber-darker-different
+  "Gruber Darker but Different color theme for Emacs 24")
 
 ;; Please, install rainbow-mode.
 ;; Colors with +x are lighter. Colors with -x are darker.
@@ -47,16 +53,16 @@
       (gruber-darker-bg-1      "#101010")
       (gruber-darker-bg        "#181818")
       (gruber-darker-bg+1      "#282828")
-      (gruber-darker-bg+2      "#453d41")
+      (gruber-darker-bg+2      "#383838")
       (gruber-darker-bg+3      "#484848")
-      (gruber-darker-bg+4      "#52494e")
-      (gruber-darker-red-1     "#c73c3f")
-      (gruber-darker-red       "#f43841")
-      (gruber-darker-red+1     "#ff4f58")
-      (gruber-darker-green     "#73c936")
-      (gruber-darker-yellow    "#ffdd33")
-      (gruber-darker-brown     "#cc8c3c")
-      (gruber-darker-quartz    "#95a99f")
+      (gruber-darker-bg+4      "#585858")
+      (gruber-darker-red-1     "#cc0000")
+      (gruber-darker-red       "#e60000")
+      (gruber-darker-red+1     "#ff1a1a")
+      (gruber-darker-green     "#33ff33")
+      (gruber-darker-yellow    "#ffcc34")
+      (gruber-darker-brown     "#804000")
+      (gruber-darker-quartz    "#bdd5d5")
       (gruber-darker-niagara-1 "#5f627f")
       (gruber-darker-niagara   "#96a6c8")
       (gruber-darker-wisteria  "#9e95c7")
@@ -369,7 +375,7 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'gruber-darker)
+(provide-theme 'gruber-darker-different)
 
 ;; Local Variables:
 ;; no-byte-compile: t
@@ -377,4 +383,4 @@
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 ;; End:
 
-;;; gruber-darker-theme.el ends here.
+;;; gruber-darker-different-theme.el ends here.
